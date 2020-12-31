@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login >> connected componenet should render the Login component 1`] = `
+<Grid
+  style={
+    Object {
+      "height": "100%",
+      "marginTop": "5em",
+    }
+  }
+  textAlign="center"
+  verticalAlign="middle"
+>
+  <GridRow>
+    <GridColumn
+      style={
+        Object {
+          "maxWidth": 450,
+        }
+      }
+    >
+      <Card
+        fluid={true}
+      >
+        <CardContent>
+          <CardHeader>
+            <Icon
+              as="i"
+              name="user"
+            />
+             Login
+          </CardHeader>
+          <CardDescription>
+            <Form
+              as="form"
+              error={false}
+              size="large"
+            >
+              <FormGroup>
+                <FormField
+                  control="input"
+                  id="username"
+                  onChange={[Function]}
+                  placeholder="Username"
+                  width="16"
+                />
+              </FormGroup>
+              <FormGroup>
+                <FormField
+                  control="input"
+                  id="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="Password"
+                  value=""
+                  width="16"
+                />
+              </FormGroup>
+              <ButtonGroup
+                fluid={true}
+              >
+                <Button
+                  as="button"
+                  color="blue"
+                  disabled={true}
+                  id="submit"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                   
+                  <Icon
+                    as="i"
+                    name="sign in"
+                  />
+                   Login
+                </Button>
+                <ButtonOr />
+                <Button
+                  as="button"
+                  id="clear"
+                  onClick={[Function]}
+                >
+                  Clear
+                </Button>
+              </ButtonGroup>
+              <Divider
+                hidden={true}
+              />
+            </Form>
+          </CardDescription>
+        </CardContent>
+        <CardContent
+          extra={true}
+        >
+          <Icon
+            as="i"
+            name="copyright"
+          />
+          MIT 2019
+        </CardContent>
+      </Card>
+    </GridColumn>
+  </GridRow>
+</Grid>
+`;
